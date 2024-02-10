@@ -1,0 +1,15 @@
+#Posibles condiciones de carrera.
+
+- En el momento cuando dos serpientes o varias de estas quieran comerse un ratón
+    tiene que haber una sincronización para que solo una de estas se coma el ratón.
+- En el momento cuando dos serpientes o varias de estas quieran comerse un poder
+    tiene que haber una sincronización para que solo una de estas obtenga el poder.
+- En el momento que alguna serpiente quiera tomar una posición, esta no esté ocupada por alguna otra serpierte.
+
+# Uso inadecuado de colecciones, considerando su manejo concurrente (para esto, aumente la velocidad del juego y ejecútelo varias veces hasta que se genere un error).
+Exception in thread "AWT-EventQueue-0" java.util.ConcurrentModificationException
+    Este error sucede cuando un hilo está intentando modificar una colección mientras otro hilo la está iterando.
+
+# Uso innecesario de esperas activas.
+
+- Las serpientes que se quedan en espera luego de morir.
